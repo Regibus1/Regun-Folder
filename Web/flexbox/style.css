@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#layout{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 95%;
+    height: 500px;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+}
+
+.red{
+    align-self: flex-start;
+    background-color: red ;
+}  
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    align-self: center;
+    background-color: blue;
+}
+
+.orange{
+    align-self: flex-end;
+    background-color: orange;
+}
+

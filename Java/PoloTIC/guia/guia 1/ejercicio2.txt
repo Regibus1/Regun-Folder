@@ -1,0 +1,14 @@
+Ejercicio Nº 2: Variables
+1- Determinar ¿Cuáles de los siguientes nombres de variables son válidos?
+Justificar por qué
+a. Fecha de Nacimiento no se admite espacios en blanco en las variables
+b. @pellido no se admite ese arroba para variables
+c. nombre si es valido usar solo letras para variables, cumple con las normas para un variable
+d. cant_hijos si es valido igualmente, tambien es valido usar guion bajo para variables
+e. tiene-pc es incorrecto no se puede utilizar en este caso guion medio con llevara a un error en compilacion
+f. edad variable valida 
+g. DNI variable valida, es valido usar variables en mayusculas tambien
+h. nombre.persona variable invalida se utiliza un punto en la variable lo cual no es valido 
+i. nombre&apellido no se permite este caracter por consiguiente no es valida esta variable
+j. em@ail variable invalida solo puede usar signo de dolar o underscore como caracter para variables por tanto es invalido
+k. dirección invalido igualmente aunque sea una variable con solo letras tiene en su formacion una tilde lo cual seria invalido

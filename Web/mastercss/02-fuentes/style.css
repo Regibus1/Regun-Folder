@@ -1,0 +1,25 @@
+@font-face{
+    font-family: GrenzeGotisc;
+    src: url(fonts/static/GrenzeGotisch-Regular.ttf);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: mediumpurple;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #403c4b;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(56, 46, 73, 0.5);
+}
+
+*{
+    font-family: GrenzeGotisc, cursive !important;
+}

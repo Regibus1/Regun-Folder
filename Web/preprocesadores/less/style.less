@@ -1,0 +1,56 @@
+//Variables
+@bgcolor: #8febad;
+@b: body;
+@fuente: sans-serif;
+
+@{b}{
+    background-color: @bgcolor;
+}
+
+h1{
+    font-family: @fuente;
+}
+//Anidados
+.info{
+    ul{
+        li{
+            color: #576fa3;
+            font-size: 20px;
+        }
+    }
+}
+
+//Mixins
+.crearBordes(@size){
+    border: 2px solid #333;
+    border-radius: @size;
+}
+
+.info{
+    .crearBordes(20px);
+}
+
+//Operadores
+h1{
+    font-size: 35px + 6px - 1px;
+}
+
+//Mixins Condicionales
+.textoMorado(@value) when (@value=true){
+    color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    .textoMorado(true);
+}
+
+//Bucle
+.loop (@cont) when (@cont > 0){
+    .loop((@cont -1));
+    heigth: (900px / @cont);
+}
+
+.info{
+    .loop(5);
+}

@@ -1,0 +1,14 @@
+Ejercicio Nº 1: Tipos de datos
+1- Determinar qué tipo de dato podría ser utilizado para los siguientes
+datos:
+a. 5,45 double
+b. 10 entero
+c. 358 entero
+d. Leonardo string
+e. Verdadero boolean
+f. 78,3 double
+2- Brindar al menos 2 ejemplos de cada uno de los siguientes tipos de datos
+a. Entero 10 256
+b. Real 7,2 5,3
+c. Lógico true false
+d. Caracter igg

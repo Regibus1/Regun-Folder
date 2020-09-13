@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Grenze Gotisch', 'Courier New', Courier, monospace;
+}
+
+body{
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#cajas{
+    max-width: 825px;
+    border: 2.5px solid #5d377c;
+    margin-left: 239px;
+}
+
+#contenido{
+    margin-top: 30px;
+}
+
+.caja{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 2.5px solid blue;
+    margin: 10px;
+    float: left;
+}
+
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 235px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}

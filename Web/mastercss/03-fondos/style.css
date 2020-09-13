@@ -1,0 +1,23 @@
+body{
+    font-family: 'Grenze Gotisch', cursive;
+    color: #5f00be;
+    background-image: url("img/patron1.jpg");
+    background-size: 25%;
+    background-attachment: fixed; 
+    background-repeat: repeat;
+    text-align: justify;
+}
+
+#caja{
+    border: 5px dashed black ;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 p{
+    border: 5px dashed black;
+    background-color: white;
+    padding: 15px;
+}
+

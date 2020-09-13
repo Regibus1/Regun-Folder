@@ -1,0 +1,35 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: hotpink;
+}
+
+ul li:nth-child(2){
+    color: royalblue;
+}
+
+ul li:last-child{
+    color: slateblue;
+}
+
+#zelda:link{
+    color: #0a7494;
+}
+
+#zelda:visited{
+    color: #0a7494;
+}
+
+#zelda:hover{
+    color: #b700ff;
+}
+
+#zelda:active{
+    color: #e7409c;
+}

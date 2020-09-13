@@ -1,0 +1,20 @@
+body {
+  background-color: #8febad;
+}
+h1 {
+  font-family: sans-serif;
+}
+.info ul li {
+  color: #576fa3;
+  font-size: 20px;
+}
+.info {
+  border: 2px solid #333;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+h1 {
+  color: purple;
+}
