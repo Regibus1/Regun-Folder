@@ -86,46 +86,48 @@
 }
 
 #aside-bar{
-    width: 15%;
-    margin: 15px;
+    flex-basis: 15%;
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 #aside-bar h3{
-    font-weight: normal;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
     color: #444;
-    text-align: center;
-    padding: 5px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+    text-align: center;
 }
 
-#bar-menu ul{
-    display: flex;
-    flex-flow: column wrap;
+#aside-bar ul{
     list-style: none;
 }
 
-#bar-menu ul a{
+#aside-bar ul li{
+    padding-bottom: 20px;
+}
+
+#aside-bar a{
+    display: block;
+    padding: 20px;
+    background-color: #eee;
+    color: #444;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    color: #444;
-    padding: 20px 75px;
 }
 
-#bar-menu ul li{
-    display: flex;
-    align-items: center;
-    height: 60px;
-    width: 100%;
-    justify-content: center;
-    background-color: #eee;
-    margin: 10px auto;
-}
-
-#bar-menu a:hover{
+#aside-bar a:hover{
     background-color: #444;
     color: #eee;
-    transition: all 300ms;
+}
+
+#bar-menu{
+    margin-top: 20px;
 }
 
 #projects{
@@ -133,54 +135,56 @@
     flex-flow: row wrap;
     justify-content: space-between;
     flex-basis: 80%;
+    margin-right: 15px;
+}
+
+.project{
+    flex-basis: 250px;
     flex-grow: 1;
-    margin-right: 25px;
-}
-
-#projects .project{
+    margin-bottom: 25px;
+    margin-right: 10px;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.project-info{
-    padding: 10px;
 }
 
 .project img{
     width: 100%;
 }
 
-.project a{
-    text-decoration: none;
-    color: black;
+.project-info{
+    padding: 10px;
 }
 
-.project p{
-    color: #808080;
+.project-info a{
+    color: black;
+    font-size: 16px;
+}
+
+.project-info p{
+    color: gray;
 }
 
 #footer{
     display: flex;
-    flex-flow: wrap;
-    justify-content: flex-start;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     height: 120px;
     align-items: center;
     border-top: 1px solid rgba(225, 225, 226, 0.8);
 }
 
-#footer h1{
-    color: #888080;
-}
-
 #footer .logo{
     flex-basis: auto;
+    opacity: 0.5;
     flex-grow: 1;
+    order: 2;
+    margin-right: 25px;
+    text-align: right;
 }
 
 #footer p{
     flex-grow: 1;
-    justify-content: flex-end;
-    margin-right: 30px;
+    order: 1;
+    margin-left: 20px;
+    color: #444;
 }
-
 
