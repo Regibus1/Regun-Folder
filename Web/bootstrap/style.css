@@ -1,0 +1,26 @@
+#menu{
+    height: 50px;
+}
+
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+
+.item{
+    height: 150px;
+}
+
+.lateral{
+    height: 550px;
+}
+.lateral > div{
+    height: 150px;
+}
+
+footer{
+    height: 50px;
+    line-height: 50px;
+}
